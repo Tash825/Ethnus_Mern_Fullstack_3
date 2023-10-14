@@ -17,8 +17,8 @@ export default function WordCounter() {
             <h1>Responsive Paragraph Word Counter</h1>
             <div>
                 <textarea
-                    rows={20}
-                    cols={70}
+                    rows={30}
+                    cols={80}
                     value={text}
                     onChange={handleTextChange}
                 />
